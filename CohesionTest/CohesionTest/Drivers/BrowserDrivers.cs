@@ -11,7 +11,7 @@ namespace CohesionTest.Drivers
 
             ChromeOptions opt = new ChromeOptions();
             opt.AddAdditionalCapability("useAutomationExtension", false);
-            opt.AddArgument("headless");
+            //opt.AddArgument("headless");
             opt.PageLoadStrategy = PageLoadStrategy.Eager;
 
             _driver = new ChromeDriver(opt);
